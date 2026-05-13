@@ -1,0 +1,430 @@
+$template = @'
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>标题 - 长帆</title>
+<style>body{font-family:system-ui;max-width:800px;margin:2rem auto;padding:1rem;line-height:1.7;background:#f5fafd;}h1{color:#176f6b;}.back-link{margin-top:2rem;display:inline-block;color:#298f82;}</style>
+</head>
+<body>
+<h1>福建省专升本院校推荐</h1>
+<p><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>2026年福建专升本院校推荐｜28所公办·独立·民办全攻略</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ecf5fa;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.55;
+            color: #1b2a3e;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            padding: 2rem 2rem 2.5rem;
+        }
+
+        .hero {
+            border-bottom: 3px solid #1f8fcf;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #145c7a, #2c89b6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            background: #eef2f7;
+            display: inline-block;
+            padding: 0.2rem 1rem;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            color: #166088;
+            font-weight: 500;
+            margin-top: 0.6rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #4a627a;
+            margin-top: 0.5rem;
+            border-left: 4px solid #2b9bcf;
+            padding-left: 1rem;
+        }
+
+        h2 {
+            font-size: 1.65rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid #d4e4ef;
+            color: #134b6b;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.8rem 0;
+            color: #1e6991;
+        }
+
+        .info-card {
+            background: #f0f6fb;
+            border-left: 5px solid #2b9bcf;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .warning-block {
+            background: #fff8ea;
+            border-left: 5px solid #eba417;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .success-card {
+            background: #eaf7ef;
+            border-left: 5px solid #2c8c4e;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .school-card {
+            background: white;
+            border: 1px solid #e2edf5;
+            border-radius: 20px;
+            padding: 1rem 1.2rem;
+            margin-bottom: 1rem;
+            transition: 0.2s;
+        }
+        .school-card:hover {
+            border-color: #1f8fcf;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .school-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #1f8fcf;
+            margin-bottom: 0.5rem;
+        }
+        .school-desc {
+            font-size: 0.95rem;
+            color: #4a627a;
+        }
+        .city-tag {
+            background: #eef2f7;
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            color: #166088;
+            margin-right: 0.5rem;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .data-table th {
+            background-color: #176e97;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .data-table td {
+            border: 1px solid #dde6ef;
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #fafdff;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            background: #1f8fcf;
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+
+        ul, ol {
+            margin: 0.8rem 0 0.8rem 1.8rem;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .highlight {
+            background: #fcf4e2;
+            font-weight: 600;
+            padding: 0.1rem 0.2rem;
+            border-radius: 6px;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #cde0e9;
+            font-size: 0.85rem;
+            text-align: center;
+            color: #4e6e8a;
+        }
+
+        @media (max-width: 720px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.35rem;
+            }
+            .data-table th, .data-table td {
+                font-size: 0.75rem;
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <h1>🏆 2026年福建专升本院校推荐｜28所招生院校全解析</h1>
+        <div class="badge">公办·独立·民办 | 按难度分层 · 按专业选校 · 助你精准上岸</div>
+        <div class="subtitle">2026年福建专升本总招生计划29276人，扩招5651人，公办名额翻倍，是近年来最好的升本机会！本文带你全面了解28所招生院校的特色、录取难度与志愿填报策略。</div>
+    </div>
+
+    <div class="success-card">
+        <strong>📢 2026年整体形势速览</strong><br>
+        ➤ 总招生计划：<span class="highlight">29276人</span>，比2025年增加5651人，增幅23.9%[reference:0]<br>
+        ➤ 公办院校：<span class="highlight">5042人</span>，扩招2784人，<strong>增幅高达123.3%</strong>，公办上岸机会翻倍[reference:1]<br>
+        ➤ 独立学院：<span class="highlight">9001人</span>，扩招1991人，增幅28.4%[reference:2]<br>
+        ➤ 民办院校：<span class="highlight">15233人</span>，扩招876人，增幅6.1%，稳定扩招[reference:3]<br>
+        ➤ 最大赢家：理工类和经管类，不仅总名额大幅增加，公办名额更是翻倍[reference:4]<br>
+        ➤ 竞争稳定：教育类、医学类招生规模基本持平，竞争难度与2025年相当[reference:5]
+    </div>
+
+    <h2>一、28所招生院校总览</h2>
+    <p>2026年福建专升本招生院校共<span class="highlight">28所</span>，分为公办、独立学院、民办三类，分布在福州、厦门、泉州、漳州等核心城市[reference:6]。</p>
+
+    <div class="data-table">
+        <table>
+            <thead><tr><th>类别</th><th>数量</th><th>城市分布</th></tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">🏛️ 公办院校</td><td>13所</td>
+                <td>福州（5所）：福建理工大学、福建江夏学院、福建商学院、福建技术师范学院、闽江学院<br>
+                    厦门（2所）：厦门理工学院、厦门医学院<br>
+                    泉州（1所）：泉州师范学院<br>
+                    莆田（1所）：莆田学院<br>
+                    龙岩（1所）：龙岩学院<br>
+                    三明（1所）：三明学院<br>
+                    南平（1所）：武夷学院<br>
+                    宁德（1所）：宁德师范学院</td>
+                </tr>
+                <tr><td style="font-weight:600;">📘 独立学院</td><td>5所</td>
+                <td>福州（3所）：福建师范大学协和学院、福州大学至诚学院、福建农林大学金山学院<br>
+                    厦门（1所）：集美大学诚毅学院<br>
+                    漳州（1所）：厦门大学嘉庚学院</td>
+                </tr>
+                <tr><td style="font-weight:600;">🎓 民办院校</td><td>10所</td>
+                <td>福州（4所）：阳光学院、福州外语外贸学院、福州理工学院、福州工商学院<br>
+                    厦门（2所）：厦门工学院、厦门华厦学院<br>
+                    泉州（4所）：仰恩大学、闽南理工学院、泉州信息工程学院、泉州职业技术大学</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>二、三大类院校详解</h2>
+
+    <h3>🏛️ 1. 公办院校（13所）—— 性价比之王</h3>
+    <p>公办院校由国家财政拨款，学费低（5000-6000元/学年），社会认可度高，是专升本考生的首选目标。2026年公办扩招123.3%，是近年来最容易考取公办本科的机会窗口。</p>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福建理工大学 <span class="tier-badge">SSS+ 顶级难度</span></div>
+        <div class="school-desc">省属重点工科强校，福州市，专升本招生涵盖文史哲法类、理工类。汉语言文学计划58人，网络与新媒体57人，法学57人[reference:7]。工科实力突出，被誉为福建省理工科的标杆院校之一<span class="city-tag">★★★★★</span><span class="city-tag">省属重点</span><span class="city-tag">工科强校</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">厦门</span>厦门理工学院 <span class="tier-badge">SSS+ 顶级难度</span></div>
+        <div class="school-desc">省属重点建设高校，软硬件实力雄厚，地理位置全国知名度高。专升本理工类计算机、软件专业录取分数常年位居福建省前茅，理工科热门专业达480+，是报考人数最多的公办院校之一<span class="city-tag">★★★★★</span><span class="city-tag">省属重点</span><span class="city-tag">城市优势</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福建技术师范学院 <span class="tier-badge">SS 区域强公办 </span></div>
+        <div class="school-desc">师范类特色公办，2026年各专业录取数据可靠。汉语言文学最低分469分（省控线393），计算机科学与技术最低分486分，财务管理最低分482分，社会体育指导与管理最低分456分，整体实力突出<span class="city-tag">★★★★</span><span class="city-tag">师范类</span><span class="city-tag">应用型大学</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">三明</span>三明学院 <span class="tier-badge">SS 区域强公办 </span></div>
+        <div class="school-desc">省属公办本科，2026年理工类机械设计制造及其自动化最低分452分（省控线200分），文史哲法类传播学最低分442分，经管类旅游管理与服务教育最低分419分，艺术类产品设计最低分381分，是公办院校中性价比突出的选择<span class="city-tag">★★★★</span><span class="city-tag">地方强校</span><span class="city-tag">招生规模大</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">泉州</span>泉州师范学院 <span class="tier-badge">SS 区域强公办 </span></div>
+        <div class="school-desc">泉州唯一的公办本科，教育类招生名额稀缺，在闽南地区声誉卓著，基础扎实，适宜教育类、文史类考生竞争报考<span class="city-tag">★★★★</span><span class="city-tag">师范类</span><span class="city-tag">闽南头部</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">厦门</span>厦门医学院 <span class="tier-badge">SS 医学类独苗</span></div>
+        <div class="school-desc">医学类公办招生主力，医学院校专升本考试前置专业限制严格，要求大专专业为医学类对口专业，是医学类考生冲刺公办的唯一选择<span class="city-tag">★★★★</span><span class="city-tag">医学类</span><span class="city-tag">专业对口</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福建商学院 <span class="tier-badge">SS 公办稳健之选</span></div>
+        <div class="school-desc">商业财经特色突出，商务英语计划109人，网络与新媒体50人，整体录取分据公开报道相对友好，文史哲法类最低分大约460分附近，经管类生源优质<span class="city-tag">★★★★</span><span class="city-tag">财经类</span><span class="city-tag">热门经管</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>闽江学院 <span class="tier-badge">S 公办招生新秀</span></div>
+        <div class="school-desc">2025年恢复专升本招生，福州主城区知名高校，2026年继续参与，多科性本科院校背景，校区设施现代化，值得关注<span class="city-tag">★★★</span><span class="city-tag">热门复苏</span><span class="city-tag">综合大学</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福建江夏学院、<span class="city-tag">莆田</span>莆田学院、<span class="city-tag">龙岩</span>龙岩学院、<span class="city-tag">南平</span>武夷学院、<span class="city-tag">宁德</span>宁德师范学院 <span class="tier-badge">SS 基础公办</span></div>
+        <div class="school-desc">龙岩学院2026年理工类电子信息工程最低分481分，经管类投资学455分；武夷学院茶学、土木工程招生；宁德师范学院是闽东唯一公办。共同特点：适合分数中等偏上、追求公办文凭且无需扎堆福厦的考生<span class="city-tag">★★★★</span><span class="city-tag">高性价比</span></div>
+    </div>
+
+    <h3>📘 2. 独立学院（5所）—— 依托母体名校的高品质教学</h3>
+    <p>独立学院依托著名大学的优质资源开办，学费约1.8—2.5万元/学年，在专升本院校中认可度及录取投档线直追公办。</p>
+
+    <div class="school-card">
+        <div class="school-name">厦门大学嘉庚学院 <span class="tier-badge">独立学院 S级</span></div>
+        <div class="school-desc"><span class="city-tag">漳州</span>2026年校友会5星级中国一流应用型大学[reference:8]。汉语言文学最低分445分，电子信息工程最低分446分，理工类/经管类口碑万众瞩目，被誉为独立学院“天花板”，适合冲刺优质独立学院的考生<span class="city-tag">★★★★★</span><span class="city-tag">华南独立领跑</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name">福建师范大学协和学院</div>
+        <div class="school-desc"><span class="city-tag">福州</span>师范底蕴深厚，广告学最低分约在450分左右[reference:9]，依托福师大教学，文科类/艺术类值得重点考虑<span class="city-tag">★★★★</span><span class="city-tag">人文优秀</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name">集美大学诚毅学院</div>
+        <div class="school-desc"><span class="city-tag">厦门</span>财经、理工多学科覆盖，英语计划120人等[reference:10]，会计学、计算机科学与技术最低分439~448分，热门专业竞争激烈<span class="city-tag">★★★★</span><span class="city-tag">厦门区位</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name">福州大学至诚学院、福建农林大学金山学院</div>
+        <div class="school-desc"><span class="city-tag">福州</span>至诚学院英语计划153人[reference:11]，金山学院英语计划115人，两年均在安溪校区培养[reference:12]。工科、英语、广告学招生人数较多，录取区间430分上下，是独立院校中的中坚力量<span class="city-tag">★★★</span><span class="city-tag">稳志愿主力</span></div>
+    </div>
+
+    <h3>🎓 3. 民办院校（10所）—— 主力的上岸通道</h3>
+    <p>民办院校承担了全省52%的专升本招生计划，共15233人，是绝大多数考生的主要上岸通道。<br>
+    根据2026年校友会福建省民办大学排名，民办院校可分为以下梯队[reference:13]：</p>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福州外语外贸学院 <span class="tier-badge">民办第1名·6星顶尖</span></div>
+        <div class="school-desc"><span class="city-tag">校友会6星级中国顶尖应用型大学</span><span class="city-tag">全国民办第3</span>外语、经管类全国领先，专升本招生覆盖面广，综合实力和生源质量稳居民办第一。英语、网络与新媒体、汉语国际教育计划超过120人。<span class="city-tag">★★★★★</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>福州理工学院 <span class="tier-badge">民办第3名·5星一流</span></div>
+        <div class="school-desc"><span class="city-tag">5星级中国一流应用型大学</span><span class="city-tag">全国第3</span>工科与护理类专业适配性强，招生规模稳定，录取门槛相对友好<span class="city-tag">★★★★</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">泉州</span>仰恩大学 <span class="tier-badge">4星高水平应用型</span></div>
+        <div class="school-desc"><span class="city-tag">4星级中国高水平应用型大学</span><span class="city-tag">全省第4</span>文史类/经管类招生名额充足，是文科考生的“稳妥首选”<span class="city-tag">★★★★</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">泉州</span>闽南理工学院 <span class="tier-badge">4星高水平应用型</span></div>
+        <div class="school-desc"><span class="city-tag">4星级中国高水平应用型大学</span><span class="city-tag">全省第5</span>总计划1670人，覆盖理工、经管、文史哲法、艺术四类共22个专业，招生规模超大，理工类专业属热门稳定选择<span class="city-tag">★★★★</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">泉州</span>泉州信息工程学院 <span class="tier-badge">4星高水平应用型</span></div>
+        <div class="school-desc"><span class="city-tag">4星级中国高水平应用型大学</span><span class="city-tag">全省第6</span>理工科在民办院校属高认可度队列，稳志愿核心选择<span class="city-tag">★★★★</span></div>
+    </div>
+
+    <div class="school-card">
+        <div class="school-name"><span class="city-tag">福州</span>阳光学院、<span class="city-tag">厦门</span>厦门工学院、<span class="city-tag">厦门</span>厦门华厦学院、<span class="city-tag">福州</span>福州工商学院、<span class="city-tag">泉州</span>泉州职业技术大学 <span class="tier-badge">3星区域一流·保底优选</span></div>
+        <div class="school-desc"><span class="city-tag">3星级区域一流应用型大学</span>录取门槛普遍友好，厦门华厦学院康复治疗学贴线444分，福州工商学院法学124人，招生数大且降分力度明显，强烈推荐最后一个志愿序列用作保底。<span class="city-tag">★★★</span></div>
+    </div>
+
+    <h2>三、各专业类别公办名额参考（2026）</h2>
+    <div class="data-table">
+        <table>
+            <thead><tr><th>类别</th><th>公办招生人数</th><th>代表院校</th></tr></thead>
+            <tbody>
+                <tr><td style="font-weight:600;">文史哲法类</td><td>718人</td>
+                <td>福建技术师范学院、龙岩学院、福建商学院[reference:14]</td></tr>
+                <tr><td style="font-weight:600;">理工类</td><td>1534人</td>
+                <td>武夷学院、龙岩学院、厦门理工学院、福建理工大学、福建技术师范学院、三明学院等[reference:15]</td></tr>
+                <tr><td style="font-weight:600;">经管类</td><td>1996人</td>
+                <td>公办经管类招生最多，福建江夏学院、莆田学院、龙岩学院、福建商学院、福建技术师范学院[reference:16]</td></tr>
+                <tr><td style="font-weight:600;">教育类</td><td>95人</td>
+                <td>公办名额极少（仅95人），福建技术师范学院、三明学院[reference:17]</td></tr>
+                <tr><td style="font-weight:600;">医学类</td><td>226人</td>
+                <td>厦门医学院等[reference:18]</td></tr>
+                <tr><td style="font-weight:600;">艺术类</td><td>213人</td>
+                <td>三明学院等[reference:19]</td></tr>
+                <tr><td style="font-weight:600;">农林生物医药类</td><td>260人</td>
+                <td>武夷学院、龙岩学院、厦门医学院、莆田学院[reference:20]</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="warning-block">
+        <strong>⚠️ 民办/独立院校降分幅度与热点风险</strong><br>
+        ➤ 公办最多降分10分，独立/民办最多降分20分，征求志愿填报务必注意填报技巧[reference:21]。<br>
+        ➤ 理工类省控线仅200分，但公办理工专业最低录取线普遍450+，别掉入“分数很低就能上公办”的陷阱。<br>
+        ➤ 文史哲法类、经管类公办院校最低投档分须远高于省控线30—80分才能稳录。<br>
+        ➤ 教育类公办仅95人，三明学院、福建技术师范学院竞争极高，保底选项建议教育类考生勾选充足民办。
+    </div>
+
+    <div class="info-card">
+        <strong>💡 报考优先级匹配建议</strong><br>
+        <strong>🎯 高分必冲公办(480+分段)</strong>：福建理工大学、厦门理工学院、厦门医学院、福建技术师范学院计算机/会计等热门专业。<br>
+        <strong>📈 中高分段（430—470分段）</strong>：三明学院、龙岩学院、福建商学院、宁德师范学院、莆田学院，稳住公办希望。<br>
+        <strong>⚖️ 稳妥上岸预备（400分左右分段）</strong>：独立学院梯队，嘉庚学院、诚毅学院、至诚学院，稳录取且社会认可有优势。<br>
+        <strong>✅ 保底坚守（350—400分段）</strong>：仰恩大学、闽南理工学院、厦门工学院、阳光学院、泉州职大等民办院校，大规模计划撑腰。<br>
+        <strong>📌 降分补录使用技巧</strong>：超线分不多的考生可赌征求志愿民办最多降20分，但补录机会不定，校选层次搭配精准。
+    </div>
+
+    <div class="footer-note">
+        📢 本文中招生计划、录取数据及排名综合自福建省教育考试院招生通知、各校招生章程及校友会2026年最新榜单。部分院校录取最低分已参考学校官网公布数据，最终请以实际填报时官方录取数据为准。<br>
+        更新日期：2026年5月 | 预祝每位考生科学择校，稳稳上岸，开启全日制本科新生活！
+    </div>
+</div>
+</body>
+</html></p >
+<a href=" " class="back-link">← 返回首页</a >
+</body>
+</html>
+'@
+
+Get-ChildItem *.html | ForEach-Object { $template | Out-File -Encoding utf8 $_.FullName }

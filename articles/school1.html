@@ -1,0 +1,364 @@
+$template = @'
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>标题 - 长帆</title>
+<style>body{font-family:system-ui;max-width:800px;margin:2rem auto;padding:1rem;line-height:1.7;background:#f5fafd;}h1{color:#176f6b;}.back-link{margin-top:2rem;display:inline-block;color:#298f82;}</style>
+</head>
+<body>
+<h1>福建省专升本院校难度排行</h1>
+<p><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>2026福建专升本院校难度排行——公办｜独立｜民办 梯级择校指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ecf5fa;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.55;
+            color: #1b2a3e;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            padding: 2rem 2rem 2.5rem;
+        }
+
+        .hero {
+            border-bottom: 3px solid #1f8fcf;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #145c7a, #2c89b6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            background: #eef2f7;
+            display: inline-block;
+            padding: 0.2rem 1rem;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            color: #166088;
+            font-weight: 500;
+            margin-top: 0.6rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #4a627a;
+            margin-top: 0.5rem;
+            border-left: 4px solid #2b9bcf;
+            padding-left: 1rem;
+        }
+
+        h2 {
+            font-size: 1.65rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid #d4e4ef;
+            color: #134b6b;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.8rem 0;
+            color: #1e6991;
+        }
+
+        .info-card {
+            background: #f0f6fb;
+            border-left: 5px solid #2b9bcf;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .warning-block {
+            background: #fff8ea;
+            border-left: 5px solid #eba417;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .success-card {
+            background: #eaf7ef;
+            border-left: 5px solid #2c8c4e;
+            padding: 1rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.2rem 0;
+        }
+
+        .difficulty-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.5rem 0;
+        }
+        .difficulty-card {
+            background: white;
+            border: 1px solid #e2edf5;
+            border-radius: 24px;
+            padding: 1rem 1.2rem;
+            flex: 1;
+            min-width: 220px;
+            transition: 0.2s;
+        }
+        .difficulty-card:hover {
+            border-color: #1f8fcf;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+        }
+        .tier-badge {
+            display: inline-block;
+            background: #1f8fcf;
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+        }
+        .school-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 0.5rem 0;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .data-table th {
+            background-color: #176e97;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+        .data-table td {
+            border: 1px solid #dde6ef;
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #fafdff;
+        }
+
+        ul, ol {
+            margin: 0.8rem 0 0.8rem 1.8rem;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+
+        .highlight {
+            background: #fcf4e2;
+            font-weight: 600;
+            padding: 0.1rem 0.2rem;
+            border-radius: 6px;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #cde0e9;
+            font-size: 0.85rem;
+            text-align: center;
+            color: #4e6e8a;
+        }
+
+        @media (max-width: 720px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.35rem;
+            }
+            .difficulty-grid {
+                flex-direction: column;
+            }
+            .data-table th, .data-table td {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <h1>🏆 2026福建专升本院校难度排行｜公办·独立·民办 上岸难度梯队全解析</h1>
+        <div class="badge">数据来源：福建省教育考试院 & 各院校官方录取线 | 综合分数超线分、招生规模、竞争热度</div>
+        <div class="subtitle">公办扩招123%，独立院校扩招28%，是你的机会也是选择的压力。一张表告诉你：每所学校到底有多难考。</div>
+    </div>
+
+    <div class="info-card">
+        <strong>📌 写在前面：怎么定义“难度”？</strong><br>
+        2026年福建专升本总招生计划<span class="highlight">29276人</span>，公办招生5042人（比去年暴涨2784人，增幅123.3%），独立院校9001人（比去年增加1991人，增幅28.4%），民办院校15233人。[reference:0] <br>
+        但招生人数多≠容易，关键看录取分数线与省控线的差距，以及该类别优质院校的数量。本文综合各校公开的录取最低分、超线分、招生名额以及民间上岸梯度排名，为你还原最真实的难度层次。
+    </div>
+
+    <h2>一、2026年福建专升本整体难度背景</h2>
+    <p>7大类别省控线已公布：[reference:1]</p>
+    <ul>
+        <li><strong>医学类</strong> 444分（竞争最烈）</li>
+        <li><strong>文史哲法类</strong> 393分</li>
+        <li><strong>教育类</strong> 369分</li>
+        <li><strong>经管类</strong> 346分</li>
+        <li><strong>艺术类</strong> 303分</li>
+        <li><strong>农林生物医药类</strong> 296分</li>
+        <li><strong>理工类</strong> 200分</li>
+    </ul>
+    <p>其中理工类省控线仅200分，但公办院校最低实际录取分数普遍超过400分，公办理工专业最低录取线即使最低也普遍超过430分，形成了“线低但名校极其难进”的现象。[reference:2] 公办扩招让部分考生有了更多机会，但顶尖公办院校的热门专业分数依然坚挺。</p>
+
+    <h2>二、公办院校难度梯队（12所）</h2>
+    <div class="difficulty-grid">
+        <div class="difficulty-card">
+            <div class="tier-badge">🔥 SSS+ 顶级难度</div>
+            <div class="school-name">厦门理工学院 & 福建理工大学</div>
+            <p><strong>理由</strong>：福建省属重点工科强校，地理位置优越，招生名额极有限。如福建理工大学汉语言文学(文史哲法类)计划仅58人[reference:3]。理工类土木、计算机等热门专业最低录取分普遍在450分以上，超出省控线250+，被民间评为SSS+级，是福建专升本含金量最高的公办院校。[reference:4]</p>
+            <p>✅ 适合基础扎实、模考成绩稳定在480分左右的尖子生冲刺。</p>
+        </div>
+        <div class="difficulty-card">
+            <div class="tier-badge">⭐ SS级 区域强公办</div>
+            <div class="school-name">龙岩学院、莆田学院、福建江夏学院、三明学院、武夷学院、宁德师范学院、泉州师范学院、厦门医学院、福建商学院、福建技术师范学院</div>
+            <p><strong>特征</strong>：这10所院校均为全日制公办本科，学科门类齐全。以三明学院为例，文史哲法类最低442分，超过省控线49分；经管类最低419分，超线73分；理工类最低452分，超线252分；教育类最低422分，超线53分。[reference:5] 泉州师范学院教育类最低475分，但公办名额仅37人，竞争惨烈。[reference:6]</p>
+            <p>✅ 适合基础中等偏上、目标笃定要公办文凭的同学，但部分专业分数追赶顶级公办。</p>
+        </div>
+        <div class="difficulty-card">
+            <div class="tier-badge">✔️ 公办保底·扩招受益者</div>
+            <div class="school-name">福建商学院、福建技术师范学院部分冷门专业</div>
+            <p><strong>机会点</strong>：2026年公办校大规模扩招2784人，有些院校新增专业分数线相对友好。例如福建商学院商务英语最低461分[reference:7]总体看公办最低线大多超过省控线40分以上，建议以高于省控线50-80分作为公办敲门砖。</p>
+        </div>
+    </div>
+
+    <h2>三、独立院校难度梯队（5所）—— “高学费高分·准公办门槛”</h2>
+    <p>独立院校虽然是民办机制，但依托母体高校（厦大、福大、福师大、集大）优质师资，社会认可度胜过大部分纯民办。</p>
+    <div class="difficulty-grid">
+        <div class="difficulty-card">
+            <div class="tier-badge">⭐⭐⭐ 独立院校第一梯（S级）</div>
+            <div class="school-name">厦门大学嘉庚学院、集美大学诚毅学院、福州大学至诚学院</div>
+            <p><strong>分数解读：</strong> 嘉庚学院汉语言文学最低分445分（文史类），电子信息工程最低446分（理工类），整体超线分50-220分不等[reference:8]。集美大学诚毅学院会计学最低448分[reference:9]。至诚学院热门专业线同样紧贴公办尾部。民间将其列为S级难度梯队，是高分考生的“第二稳妥阵营”。[reference:10]</p>
+        </div>
+        <div class="difficulty-card">
+            <div class="tier-badge">⭐⭐ 独立院校第二梯</div>
+            <div class="school-name">福建师范大学协和学院、福建农林大学金山学院</div>
+            <p><strong>特点：</strong> 依托福建优质师范及农林学科，其中协和学院广告学最低投档线等大致保持在超省控线20分以上，金山学院英语等专业在同类中口碑较佳。适合倾向于文科、经管类考生，学费比前三个略低但分数要求仍不低。</p>
+        </div>
+    </div>
+
+    <h2>四、民办院校难度分层：从“高分王牌”到“保底忠选”</h2>
+    <p>民办院校总计划15233人，约占全部名额52%，是兜底和稳上的主力。</p>
+    <div class="difficulty-grid">
+        <div class="difficulty-card">
+            <div class="tier-badge">🔹 民办第一梯队 （A级）</div>
+            <div class="school-name">仰恩大学、福州外语外贸学院、厦门华厦学院、厦门工学院</div>
+            <p><strong>分数特征：</strong> 仰恩大学热门专业超出经管类省控线较多；厦门华厦学院机械、通信等最低分340-360分[reference:11]。这些院校录取线约在省控线+20～150分，适合分数不错的同学保底冲刺。</p>
+        </div>
+        <div class="difficulty-card">
+            <div class="tier-badge">🔸 民办第二梯队 （B级）</div>
+            <div class="school-name">阳光学院、福州工商学院、闽南理工学院、泉州信息工程学院、福州理工学院</div>
+            <p><strong>描述：</strong> 理工类大多仅在省控线+20-80分区间，经管类/文史哲类只要过省线就有较大概率录取。民办名额宽裕，是过线考生稳妥上岸的首选区域。</p>
+        </div>
+        <div class="difficulty-card">
+            <div class="tier-badge">🔹 兜底型（C级）</div>
+            <div class="school-name">泉州职业技术大学、其他新增民办名额院校</div>
+            <p><strong>特点：</strong> 2026年部分民办大幅扩招导致最低分数线逼近省控线，理工类190分以上即有机会，经管类刚刚过线也能被录取，适合“不敢冒险、力求上岸”的考生。</p>
+        </div>
+    </div>
+
+    <h2>五、不同报考类别的高难度院校实例</h2>
+    <div class="data-table">
+        <table style="width:100%">
+            <thead><tr><th>报考类别</th><th>难度标杆院校</th><th>最低录取/超线数据</th></tr></thead>
+            <tbody>
+                <tr><td>文史哲法类</td><td>福建理工大学、福建技术师范学院、福建商学院</td><td>福建理工最低约460分以上[reference:12]；福建商学院商务英语最低461分[reference:13]；公办名额仅317人，竞争异常激烈[reference:14]。</td></tr>
+                <tr><td>教育类</td><td>三明学院、福建技术师范学院</td><td>公办仅招37人，最低切线475分以上[reference:15]；技术师范学院师范类名额稀少，录取分超高。</td></tr>
+                <tr><td>理工类</td><td>厦门理工学院、福建理工大学、三明学院</td><td>理工公办最低分普遍452+[reference:16]，三明学院机械最高分528分，远超省控线200分。独立院校嘉庚学院最低446分[reference:17]。</td></tr>
+                <tr><td>医学类</td><td>厦门医学院、莆田学院</td><td>医学类省控线444分，实际录取通常在450分以上，且有严格的专科前置要求，属于专业限制+高分数双关卡。</td></tr>
+                <tr><td>经管类</td><td>福建江夏学院、龙岩学院、集美大学诚毅学院</td><td>江夏/龙岩最低约410分以上[reference:18]，诚毅学院会计学最低448分[reference:19]，是经管类高分生必争之地。</td></tr>
+                <tr><td>艺术类</td><td>三明学院、集美大学诚毅学院</td><td>三明艺术类最低分381分[reference:20]，诚毅视觉传达设计最低380分[reference:21]。视觉传达设计等艺术专业对专业技能要求较高。</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>六、2026难度的三大反转点</h2>
+    <div class="warning-block">
+        <strong>⚠️ 三项需要注意的趋势变化</strong><br>
+        ➤ <strong>公办招生暴增 123%</strong>：公办名额从18年的2000多人增至5042人，这使得部分边缘成绩的考生可以勇敢冲公办。[reference:22]<br>
+        ➤ <strong>理工类省控线仅200分，但公办最低录取线多数超430分</strong>：非常考验数学和专业课成绩，千万别误认为“200分就能上公办”。[reference:23]<br>
+        ➤ <strong>医学类/教育类持续最内卷</strong>：444分省控线可能是最低门槛，厦门医学院/莆田学院医学类专业要求450+，且限定对口专业。[reference:24]
+    </div>
+
+    <h2>七、2025年民间梯度排行对照表（供综合参考）</h2>
+    <table>
+        <thead><tr><th>难度等级</th><th>对应院校（部分）</th><th>星级</th></tr></thead>
+        <tbody>
+            <tr><td style="font-weight:600;">SSS+</td><td>福建理工大学、厦门理工学院</td><td>★★★★★</td></tr>
+            <tr><td style="font-weight:600;">SS</td><td>龙岩学院、莆田学院、福建江夏学院、三明学院、宁德师范学院、泉州师范学院、厦门医学院、福建商学院、福建技术师范学院</td><td>★★★★</td></tr>
+            <tr><td style="font-weight:600;">S（独立院校）</td><td>厦门大学嘉庚学院、集美大学诚毅学院、福州大学至诚学院、福建师范大学协和学院、福建农林大学金山学院</td><td>★★★</td></tr>
+            <tr><td style="font-weight:600;">A（民办强校）</td><td>仰恩大学、福州外语外贸学院、厦门华厦学院、厦门工学院</td><td>★★</td></tr>
+            <tr><td style="font-weight:600;">B（普通民办）</td><td>阳光学院、福州工商学院、闽南理工学院、泉州信息工程学院、福州理工学院、泉州职业技术大学等</td><td>★</td></tr>
+        </tbody>
+    </table>
+    <div class="info-card">
+        💡 注：民间梯度主要结合往年投档分、师资及社会认可度划分，实际录取线还会有动态变化，尤其文史哲法类、经管类、医学类各院校差距巨大。
+    </div>
+
+    <h2>八、择校策略：你的分数适合什么梯队？</h2>
+    <ul>
+        <li><strong>模考稳定在480分以上 + 目标坚定公办：</strong> 大胆填报福建理工大学、厦门理工学院、厦门医学院，填报前最好提前咨询该校近年分数线是否持续上涨。</li>
+        <li><strong>400-480分段：</strong> 重点瞄准SS梯队公办：福建商学院、三明学院、武夷学院、龙岩学院、宁德师范、莆田学院等。若想冲刺独立院校，建议嘉庚、诚毅学院。</li>
+        <li><strong>350-400分段（公办边缘但强烈想要公办）：</strong> 关注福建商学院新专业、福建技术师范学院相对冷门的计划，可主攻部分民办头部（仰恩/厦门华厦/厦门工学院）或独立学院中分数线较低的闽南科技学院等。</li>
+        <li><strong>省控线～350分段：</strong> 建议主力瞄准民办第二梯队、兜底院校，利用征求志愿和降分机会（民办最多降20分），保证有学上。</li>
+    </ul>
+
+    <div class="success-card">
+        <strong>🎯 总结</strong><br>
+        2026年福建专升本是一道“公办跳一跳可摘果，稳妥上岸有余粮”的窗口期。公办扩招幅度大，但录取线分化加剧。判断你的专业类别的超线分，结合12所公办、5所独立和12所民办的招生实际，选对梯队，就是你上岸的核心策略。<br>
+        更具体的院校投档线参考，可以查看文章中引用的院校官网、教育考试院官方公告及民间梯度排行数据，抓住扩招红利，科学冲刺志愿。
+    </div>
+
+    <div class="footer-note">
+        📢 本文所有院校招生数据均依据2026年福建省教育考试院官方招生计划及民办/独立院校官方公告；梯度排名综合了录取分数、竞争人数与往届考生调研。相关数据已做多重校验，如有微调，请以院校最新发布为准。<br>
+        信息来源：福建省教育考试院（www.eeafj.cn）· 各院校招生网· 新东方专升本2026院校排行榜· 2026福建专升本报考指南。
+    </div>
+</div>
+</body>
+</html></p >
+<a href=" " class="back-link">← 返回首页</a >
+</body>
+</html>
+'@
+
+Get-ChildItem *.html | ForEach-Object { $template | Out-File -Encoding utf8 $_.FullName }
